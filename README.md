@@ -38,7 +38,7 @@ docker run \
   -e DAEMON_URL=http://user:pass@host:port \
   -e COIN=Groestlcoin \
   -p 50002:50002 \
-  groestlcoin/electrumx:v1.9.1
+  groestlcoin/electrumx:version-1.9.1
 ```
 
 ## License
