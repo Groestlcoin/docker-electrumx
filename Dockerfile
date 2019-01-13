@@ -1,5 +1,5 @@
-FROM python:3.6-alpine3.6
-LABEL maintainer="Luke Childs <lukechilds123@gmail.com>"
+FROM python:3.7-alpine3.7
+LABEL maintainer="Groestlcoin Developers <groestlcoin@gmail.com>"
 
 COPY ./bin /usr/local/bin
 COPY ./VERSION /tmp

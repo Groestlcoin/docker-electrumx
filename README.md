@@ -17,7 +17,7 @@ docker run \
   -e DAEMON_URL=http://user:pass@host:port \
   -e COIN=Groestlcoin \
   -p 50002:50002 \
-  kyuupichan/electrumx
+  groestlcoin/electrumx
 ```
 
 If there's an SSL certificate/key (`electrumx.crt`/`electrumx.key`) in the `/data` volume it'll be used. If not, one will be generated for you.
@@ -38,7 +38,7 @@ docker run \
   -e DAEMON_URL=http://user:pass@host:port \
   -e COIN=Groestlcoin \
   -p 50002:50002 \
-  kyuupichan/electrumx:v1.2.1
+  groestlcoin/electrumx:v1.9.1
 ```
 
 ## License
